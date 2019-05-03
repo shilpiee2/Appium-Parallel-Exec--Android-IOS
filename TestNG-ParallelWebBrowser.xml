@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Android-Test-Suite" parallel="tests" thread-count="3">
+
+    <!--SonyXperia_Settings-->
+    <test name="Test- Nexus-Android 9" parallel="classes" thread-count="3">
+        <parameter name="deviceName" value="Nexus" />
+        <parameter name="udid" value="emulator-5554" />
+        <parameter name="platformVersion" value="9" />
+        <parameter name="port" value="4444" />
+        <parameter name="chromedriverpath" value="C:/Users/s.a.bose/workspace/appium/abc/ChromeDriver2.42/chromedriver.exe" />
+        <parameter name="chromeport" value="9515" />
+        <classes>
+            <class name="tests.cucumber.tests.RunCucumberFeatures" />
+        </classes>
+    </test>
+
+    <!--LG-G4_Settings-->
+    <test name="Test- Pixel-Android 8" parallel="classes" thread-count="3">
+        <parameter name="deviceName" value="Pixel" />
+        <parameter name="udid" value="emulator-5556" />
+        <parameter name="platformVersion" value="8.0.0" />
+        <parameter name="port" value="4723" />
+        <parameter name="chromedriverpath" value="C:/Users/s.a.bose/workspace/appium/abc/ChromeDriver2.28/chromedriver.exe" />
+        <parameter name="chromeport" value="9516" />
+        <classes>
+            <class name="tests.cucumber.tests.RunCucumberFeatures" />
+        </classes>
+    </test>
+
+</suite>

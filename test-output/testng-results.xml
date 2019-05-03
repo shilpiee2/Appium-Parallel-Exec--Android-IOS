@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Android-Test-Suite" duration-ms="214468" started-at="2019-05-03T22:01:01Z" finished-at="2019-05-03T22:04:36Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="RunCucumberFeatures.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:tests.cucumber.tests.RunCucumberFeatures@4f063c0a]" name="feature" class="tests.cucumber.tests.RunCucumberFeatures"/>
+        <method signature="RunCucumberFeatures.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:tests.cucumber.tests.RunCucumberFeatures@3712b94]" name="feature" class="tests.cucumber.tests.RunCucumberFeatures"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Test- Nexus-Android 9" duration-ms="185164" started-at="2019-05-03T22:01:01Z" finished-at="2019-05-03T22:04:07Z">
+      <class name="tests.cucumber.tests.RunCucumberFeatures">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:tests.cucumber.tests.RunCucumberFeatures@4f063c0a]" name="setUpClass" is-config="true" duration-ms="386" started-at="2019-05-03T22:01:01Z" finished-at="2019-05-03T22:01:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.cucumber.tests.RunCucumberFeatures@4f063c0a]" name="setup" is-config="true" duration-ms="17703" started-at="2019-05-03T22:01:02Z" finished-at="2019-05-03T22:01:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nexus]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[emulator-5554]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[4444]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[C:/Users/s.a.bose/workspace/appium/abc/ChromeDriver2.42/chromedriver.exe]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[9515]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:tests.cucumber.tests.RunCucumberFeatures@4f063c0a]" name="feature" duration-ms="15695" started-at="2019-05-03T22:01:20Z" description="Runs LoginCandiate Feature" data-provider="features" finished-at="2019-05-03T22:01:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Validate new changes for AIB Personal Web Chat Form]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:tests.cucumber.tests.RunCucumberFeatures@4f063c0a]" name="teardown" is-config="true" duration-ms="3939" started-at="2019-05-03T22:01:35Z" finished-at="2019-05-03T22:01:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.cucumber.tests.RunCucumberFeatures@4f063c0a]" name="setup" is-config="true" duration-ms="21623" started-at="2019-05-03T22:01:39Z" finished-at="2019-05-03T22:02:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nexus]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[emulator-5554]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[4444]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[C:/Users/s.a.bose/workspace/appium/abc/ChromeDriver2.42/chromedriver.exe]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[9515]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:tests.cucumber.tests.RunCucumberFeatures@4f063c0a]" name="feature" duration-ms="122149" started-at="2019-05-03T22:02:01Z" description="Runs LoginCandiate Feature" data-provider="features" finished-at="2019-05-03T22:04:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Validate new changes for AIB Personal FX form]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:tests.cucumber.tests.RunCucumberFeatures@4f063c0a]" name="teardown" is-config="true" duration-ms="3450" started-at="2019-05-03T22:04:03Z" finished-at="2019-05-03T22:04:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:tests.cucumber.tests.RunCucumberFeatures@4f063c0a]" name="tearDownClass" is-config="true" duration-ms="55" started-at="2019-05-03T22:04:07Z" finished-at="2019-05-03T22:04:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- tests.cucumber.tests.RunCucumberFeatures -->
+    </test> <!-- Test- Nexus-Android 9 -->
+    <test name="Test- Pixel-Android 8" duration-ms="214468" started-at="2019-05-03T22:01:01Z" finished-at="2019-05-03T22:04:36Z">
+      <class name="tests.cucumber.tests.RunCucumberFeatures">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:tests.cucumber.tests.RunCucumberFeatures@3712b94]" name="setUpClass" is-config="true" duration-ms="388" started-at="2019-05-03T22:01:01Z" finished-at="2019-05-03T22:01:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.cucumber.tests.RunCucumberFeatures@3712b94]" name="setup" is-config="true" duration-ms="23211" started-at="2019-05-03T22:01:02Z" finished-at="2019-05-03T22:01:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Pixel]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[8.0.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[emulator-5556]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[4723]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[C:/Users/s.a.bose/workspace/appium/abc/ChromeDriver2.28/chromedriver.exe]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[9516]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:tests.cucumber.tests.RunCucumberFeatures@3712b94]" name="feature" duration-ms="15203" started-at="2019-05-03T22:01:25Z" description="Runs LoginCandiate Feature" data-provider="features" finished-at="2019-05-03T22:01:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Validate new changes for AIB Personal Web Chat Form]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:tests.cucumber.tests.RunCucumberFeatures@3712b94]" name="teardown" is-config="true" duration-ms="3662" started-at="2019-05-03T22:01:40Z" finished-at="2019-05-03T22:01:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.cucumber.tests.RunCucumberFeatures@3712b94]" name="setup" is-config="true" duration-ms="50943" started-at="2019-05-03T22:01:44Z" finished-at="2019-05-03T22:02:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Pixel]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[8.0.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[emulator-5556]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[4723]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[C:/Users/s.a.bose/workspace/appium/abc/ChromeDriver2.28/chromedriver.exe]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[9516]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:tests.cucumber.tests.RunCucumberFeatures@3712b94]" name="feature" duration-ms="118199" started-at="2019-05-03T22:02:35Z" description="Runs LoginCandiate Feature" data-provider="features" finished-at="2019-05-03T22:04:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Validate new changes for AIB Personal FX form]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:tests.cucumber.tests.RunCucumberFeatures@3712b94]" name="teardown" is-config="true" duration-ms="2698" started-at="2019-05-03T22:04:33Z" finished-at="2019-05-03T22:04:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:tests.cucumber.tests.RunCucumberFeatures@3712b94]" name="tearDownClass" is-config="true" duration-ms="20" started-at="2019-05-03T22:04:36Z" finished-at="2019-05-03T22:04:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- tests.cucumber.tests.RunCucumberFeatures -->
+    </test> <!-- Test- Pixel-Android 8 -->
+  </suite> <!-- Android-Test-Suite -->
+</testng-results>
