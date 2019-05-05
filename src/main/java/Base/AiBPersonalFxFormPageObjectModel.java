@@ -1,11 +1,14 @@
 package Base;
 
+import static org.testng.Assert.assertEquals;
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.pagefactory.AppiumFieldDecorator;
 
 import org.openqa.selenium.Keys;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
@@ -32,9 +35,9 @@ public class AiBPersonalFxFormPageObjectModel extends BasePage {
  * page object model initialization.
  */
   
-  public AiBPersonalFxFormPageObjectModel(AppiumDriver driver) {
+  public AiBPersonalFxFormPageObjectModel(RemoteWebDriver driver) {
 	  super(driver);
-	PageFactory.initElements(new AppiumFieldDecorator(driver), this);
+	PageFactory.initElements(driver, this);
 	  
   }
 
@@ -54,7 +57,7 @@ public class AiBPersonalFxFormPageObjectModel extends BasePage {
  */
 
   public boolean invisibilityBranch() {
-	  explicitWait(branchDropdown, 100);
+	  explicitWait(branchDropdown, 50);
     branchField.sendKeys(Keys.RETURN);
     boolean result = invisibilityOfElement(branchDropdown);
     Assert.assertEquals(true, result);
@@ -64,6 +67,6 @@ public class AiBPersonalFxFormPageObjectModel extends BasePage {
 public void navigate() {
 	  String url = "https://aib2.aibtest.ie/personal-forms/fx-form";
 	  driver.get(url);
-	  //assertEquals(url, "https://aib2.aibtest.ie/personal-forms/fx-form");
+	  //assert.assertEquals(url, "https://aib2.aibtest.ie/personal-forms/fx-form");
 	  }
 }

@@ -1,8 +1,5 @@
 package Base;
 
-import io.appium.java_client.AppiumDriver;
-import io.appium.java_client.android.AndroidDriver;
-
 import org.apache.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.ElementNotVisibleException;
@@ -14,10 +11,10 @@ import org.openqa.selenium.UnhandledAlertException;
 import org.openqa.selenium.WebDriverException;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
-
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.ArrayList;
@@ -31,10 +28,10 @@ public class BasePage {
 	
 	protected static Logger Log = Logger.getLogger(BasePage.class);
 
-    protected AppiumDriver<?> driver;
-    protected WebDriverWait wait;
+    protected RemoteWebDriver driver = null;
+    protected WebDriverWait wait = null;
 
-    public BasePage (AppiumDriver<?> driver){
+    public BasePage (RemoteWebDriver driver){
         this.driver = driver;
         wait = new WebDriverWait(driver, 15);
     }

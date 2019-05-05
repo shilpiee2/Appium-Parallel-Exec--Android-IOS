@@ -1,21 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
   <reporter-output>
   </reporter-output>
-  <suite name="Android-Test-Suite" duration-ms="214468" started-at="2019-05-03T22:01:01Z" finished-at="2019-05-03T22:04:36Z">
+  <suite name="Suite" duration-ms="0" started-at="2019-05-05T19:50:05Z" finished-at="2019-05-05T19:50:05Z">
+    <groups>
+    </groups>
+  </suite> <!-- Suite -->
+  <suite name="Android-Test-Suite" duration-ms="184787" started-at="2019-05-05T19:46:58Z" finished-at="2019-05-05T19:50:03Z">
     <groups>
       <group name="cucumber">
-        <method signature="RunCucumberFeatures.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:tests.cucumber.tests.RunCucumberFeatures@4f063c0a]" name="feature" class="tests.cucumber.tests.RunCucumberFeatures"/>
-        <method signature="RunCucumberFeatures.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:tests.cucumber.tests.RunCucumberFeatures@3712b94]" name="feature" class="tests.cucumber.tests.RunCucumberFeatures"/>
+        <method signature="RunCucumberFeatures.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:tests.cucumber.tests.RunCucumberFeatures@6f195bc3]" name="feature" class="tests.cucumber.tests.RunCucumberFeatures"/>
+        <method signature="RunCucumberFeatures.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:tests.cucumber.tests.RunCucumberFeatures@3d921e20]" name="feature" class="tests.cucumber.tests.RunCucumberFeatures"/>
       </group> <!-- cucumber -->
     </groups>
-    <test name="Test- Nexus-Android 9" duration-ms="185164" started-at="2019-05-03T22:01:01Z" finished-at="2019-05-03T22:04:07Z">
+    <test name="Test- Nexus-Android 9" duration-ms="167500" started-at="2019-05-05T19:46:58Z" finished-at="2019-05-05T19:49:46Z">
       <class name="tests.cucumber.tests.RunCucumberFeatures">
-        <test-method status="PASS" signature="setUpClass()[pri:0, instance:tests.cucumber.tests.RunCucumberFeatures@4f063c0a]" name="setUpClass" is-config="true" duration-ms="386" started-at="2019-05-03T22:01:01Z" finished-at="2019-05-03T22:01:02Z">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:tests.cucumber.tests.RunCucumberFeatures@6f195bc3]" name="setUpClass" is-config="true" duration-ms="47" started-at="2019-05-05T19:46:58Z" finished-at="2019-05-05T19:46:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.cucumber.tests.RunCucumberFeatures@4f063c0a]" name="setup" is-config="true" duration-ms="17703" started-at="2019-05-03T22:01:02Z" finished-at="2019-05-03T22:01:20Z">
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.cucumber.tests.RunCucumberFeatures@6f195bc3]" name="setup" is-config="true" duration-ms="34479" started-at="2019-05-05T19:46:58Z" finished-at="2019-05-05T19:47:33Z">
           <params>
             <param index="0">
               <value>
@@ -34,7 +38,7 @@
             </param>
             <param index="3">
               <value>
-                <![CDATA[4444]]>
+                <![CDATA[4723]]>
               </value>
             </param>
             <param index="4">
@@ -47,11 +51,16 @@
                 <![CDATA[9515]]>
               </value>
             </param>
+            <param index="6">
+              <value>
+                <![CDATA[Android]]>
+              </value>
+            </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:tests.cucumber.tests.RunCucumberFeatures@4f063c0a]" name="feature" duration-ms="15695" started-at="2019-05-03T22:01:20Z" description="Runs LoginCandiate Feature" data-provider="features" finished-at="2019-05-03T22:01:35Z">
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:tests.cucumber.tests.RunCucumberFeatures@6f195bc3]" name="feature" duration-ms="18801" started-at="2019-05-05T19:47:33Z" description="Runs LoginCandiate Feature" data-provider="features" finished-at="2019-05-05T19:47:52Z">
           <params>
             <param index="0">
               <value>
@@ -62,11 +71,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- feature -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:tests.cucumber.tests.RunCucumberFeatures@4f063c0a]" name="teardown" is-config="true" duration-ms="3939" started-at="2019-05-03T22:01:35Z" finished-at="2019-05-03T22:01:39Z">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:tests.cucumber.tests.RunCucumberFeatures@6f195bc3]" name="teardown" is-config="true" duration-ms="6537" started-at="2019-05-05T19:47:52Z" finished-at="2019-05-05T19:47:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.cucumber.tests.RunCucumberFeatures@4f063c0a]" name="setup" is-config="true" duration-ms="21623" started-at="2019-05-03T22:01:39Z" finished-at="2019-05-03T22:02:01Z">
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.cucumber.tests.RunCucumberFeatures@6f195bc3]" name="setup" is-config="true" duration-ms="24324" started-at="2019-05-05T19:47:58Z" finished-at="2019-05-05T19:48:22Z">
           <params>
             <param index="0">
               <value>
@@ -85,7 +94,7 @@
             </param>
             <param index="3">
               <value>
-                <![CDATA[4444]]>
+                <![CDATA[4723]]>
               </value>
             </param>
             <param index="4">
@@ -98,11 +107,16 @@
                 <![CDATA[9515]]>
               </value>
             </param>
+            <param index="6">
+              <value>
+                <![CDATA[Android]]>
+              </value>
+            </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:tests.cucumber.tests.RunCucumberFeatures@4f063c0a]" name="feature" duration-ms="122149" started-at="2019-05-03T22:02:01Z" description="Runs LoginCandiate Feature" data-provider="features" finished-at="2019-05-03T22:04:03Z">
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:tests.cucumber.tests.RunCucumberFeatures@6f195bc3]" name="feature" duration-ms="76988" started-at="2019-05-05T19:48:22Z" description="Runs LoginCandiate Feature" data-provider="features" finished-at="2019-05-05T19:49:39Z">
           <params>
             <param index="0">
               <value>
@@ -113,23 +127,23 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- feature -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:tests.cucumber.tests.RunCucumberFeatures@4f063c0a]" name="teardown" is-config="true" duration-ms="3450" started-at="2019-05-03T22:04:03Z" finished-at="2019-05-03T22:04:07Z">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:tests.cucumber.tests.RunCucumberFeatures@6f195bc3]" name="teardown" is-config="true" duration-ms="6142" started-at="2019-05-05T19:49:39Z" finished-at="2019-05-05T19:49:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:tests.cucumber.tests.RunCucumberFeatures@4f063c0a]" name="tearDownClass" is-config="true" duration-ms="55" started-at="2019-05-03T22:04:07Z" finished-at="2019-05-03T22:04:07Z">
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:tests.cucumber.tests.RunCucumberFeatures@6f195bc3]" name="tearDownClass" is-config="true" duration-ms="130" started-at="2019-05-05T19:49:46Z" finished-at="2019-05-05T19:49:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
       </class> <!-- tests.cucumber.tests.RunCucumberFeatures -->
     </test> <!-- Test- Nexus-Android 9 -->
-    <test name="Test- Pixel-Android 8" duration-ms="214468" started-at="2019-05-03T22:01:01Z" finished-at="2019-05-03T22:04:36Z">
+    <test name="Test- Pixel-Android 8" duration-ms="184787" started-at="2019-05-05T19:46:58Z" finished-at="2019-05-05T19:50:03Z">
       <class name="tests.cucumber.tests.RunCucumberFeatures">
-        <test-method status="PASS" signature="setUpClass()[pri:0, instance:tests.cucumber.tests.RunCucumberFeatures@3712b94]" name="setUpClass" is-config="true" duration-ms="388" started-at="2019-05-03T22:01:01Z" finished-at="2019-05-03T22:01:02Z">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:tests.cucumber.tests.RunCucumberFeatures@3d921e20]" name="setUpClass" is-config="true" duration-ms="44" started-at="2019-05-05T19:46:58Z" finished-at="2019-05-05T19:46:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.cucumber.tests.RunCucumberFeatures@3712b94]" name="setup" is-config="true" duration-ms="23211" started-at="2019-05-03T22:01:02Z" finished-at="2019-05-03T22:01:25Z">
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.cucumber.tests.RunCucumberFeatures@3d921e20]" name="setup" is-config="true" duration-ms="33937" started-at="2019-05-05T19:46:58Z" finished-at="2019-05-05T19:47:32Z">
           <params>
             <param index="0">
               <value>
@@ -148,7 +162,7 @@
             </param>
             <param index="3">
               <value>
-                <![CDATA[4723]]>
+                <![CDATA[4724]]>
               </value>
             </param>
             <param index="4">
@@ -161,11 +175,16 @@
                 <![CDATA[9516]]>
               </value>
             </param>
+            <param index="6">
+              <value>
+                <![CDATA[Android]]>
+              </value>
+            </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:tests.cucumber.tests.RunCucumberFeatures@3712b94]" name="feature" duration-ms="15203" started-at="2019-05-03T22:01:25Z" description="Runs LoginCandiate Feature" data-provider="features" finished-at="2019-05-03T22:01:40Z">
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:tests.cucumber.tests.RunCucumberFeatures@3d921e20]" name="feature" duration-ms="20036" started-at="2019-05-05T19:47:32Z" description="Runs LoginCandiate Feature" data-provider="features" finished-at="2019-05-05T19:47:52Z">
           <params>
             <param index="0">
               <value>
@@ -176,11 +195,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- feature -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:tests.cucumber.tests.RunCucumberFeatures@3712b94]" name="teardown" is-config="true" duration-ms="3662" started-at="2019-05-03T22:01:40Z" finished-at="2019-05-03T22:01:44Z">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:tests.cucumber.tests.RunCucumberFeatures@3d921e20]" name="teardown" is-config="true" duration-ms="5058" started-at="2019-05-05T19:47:52Z" finished-at="2019-05-05T19:47:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.cucumber.tests.RunCucumberFeatures@3712b94]" name="setup" is-config="true" duration-ms="50943" started-at="2019-05-03T22:01:44Z" finished-at="2019-05-03T22:02:35Z">
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.cucumber.tests.RunCucumberFeatures@3d921e20]" name="setup" is-config="true" duration-ms="46961" started-at="2019-05-05T19:47:57Z" finished-at="2019-05-05T19:48:44Z">
           <params>
             <param index="0">
               <value>
@@ -199,7 +218,7 @@
             </param>
             <param index="3">
               <value>
-                <![CDATA[4723]]>
+                <![CDATA[4724]]>
               </value>
             </param>
             <param index="4">
@@ -212,11 +231,16 @@
                 <![CDATA[9516]]>
               </value>
             </param>
+            <param index="6">
+              <value>
+                <![CDATA[Android]]>
+              </value>
+            </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:tests.cucumber.tests.RunCucumberFeatures@3712b94]" name="feature" duration-ms="118199" started-at="2019-05-03T22:02:35Z" description="Runs LoginCandiate Feature" data-provider="features" finished-at="2019-05-03T22:04:33Z">
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:tests.cucumber.tests.RunCucumberFeatures@3d921e20]" name="feature" duration-ms="72291" started-at="2019-05-05T19:48:44Z" description="Runs LoginCandiate Feature" data-provider="features" finished-at="2019-05-05T19:49:57Z">
           <params>
             <param index="0">
               <value>
@@ -227,15 +251,122 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- feature -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:tests.cucumber.tests.RunCucumberFeatures@3712b94]" name="teardown" is-config="true" duration-ms="2698" started-at="2019-05-03T22:04:33Z" finished-at="2019-05-03T22:04:36Z">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:tests.cucumber.tests.RunCucumberFeatures@3d921e20]" name="teardown" is-config="true" duration-ms="6370" started-at="2019-05-05T19:49:57Z" finished-at="2019-05-05T19:50:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:tests.cucumber.tests.RunCucumberFeatures@3712b94]" name="tearDownClass" is-config="true" duration-ms="20" started-at="2019-05-03T22:04:36Z" finished-at="2019-05-03T22:04:36Z">
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:tests.cucumber.tests.RunCucumberFeatures@3d921e20]" name="tearDownClass" is-config="true" duration-ms="45" started-at="2019-05-05T19:50:03Z" finished-at="2019-05-05T19:50:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
       </class> <!-- tests.cucumber.tests.RunCucumberFeatures -->
     </test> <!-- Test- Pixel-Android 8 -->
   </suite> <!-- Android-Test-Suite -->
+  <suite name="Chrome Web Test Suite" duration-ms="82889" started-at="2019-05-05T19:45:35Z" finished-at="2019-05-05T19:46:58Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="RunCucumberFeatures.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:tests.cucumber.tests.RunCucumberFeatures@6ee52dcd]" name="feature" class="tests.cucumber.tests.RunCucumberFeatures"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name=" Web Browser Test on Chrome" duration-ms="82889" started-at="2019-05-05T19:45:35Z" finished-at="2019-05-05T19:46:58Z">
+      <class name="tests.cucumber.tests.RunCucumberFeatures">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:tests.cucumber.tests.RunCucumberFeatures@6ee52dcd]" name="setUpClass" is-config="true" duration-ms="398" started-at="2019-05-05T19:45:35Z" finished-at="2019-05-05T19:45:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.cucumber.tests.RunCucumberFeatures@6ee52dcd]" name="setup" is-config="true" duration-ms="5349" started-at="2019-05-05T19:45:36Z" finished-at="2019-05-05T19:45:41Z">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+            <param index="1">
+              <value is-null="true"/>
+            </param>
+            <param index="2">
+              <value is-null="true"/>
+            </param>
+            <param index="3">
+              <value is-null="true"/>
+            </param>
+            <param index="4">
+              <value is-null="true"/>
+            </param>
+            <param index="5">
+              <value is-null="true"/>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[web]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:tests.cucumber.tests.RunCucumberFeatures@6ee52dcd]" name="feature" duration-ms="12383" started-at="2019-05-05T19:45:41Z" description="Runs LoginCandiate Feature" data-provider="features" finished-at="2019-05-05T19:45:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Validate new changes for AIB Personal Web Chat Form]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:tests.cucumber.tests.RunCucumberFeatures@6ee52dcd]" name="teardown" is-config="true" duration-ms="117" started-at="2019-05-05T19:45:54Z" finished-at="2019-05-05T19:45:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.cucumber.tests.RunCucumberFeatures@6ee52dcd]" name="setup" is-config="true" duration-ms="3377" started-at="2019-05-05T19:45:54Z" finished-at="2019-05-05T19:45:57Z">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+            <param index="1">
+              <value is-null="true"/>
+            </param>
+            <param index="2">
+              <value is-null="true"/>
+            </param>
+            <param index="3">
+              <value is-null="true"/>
+            </param>
+            <param index="4">
+              <value is-null="true"/>
+            </param>
+            <param index="5">
+              <value is-null="true"/>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[web]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:tests.cucumber.tests.RunCucumberFeatures@6ee52dcd]" name="feature" duration-ms="60997" started-at="2019-05-05T19:45:57Z" description="Runs LoginCandiate Feature" data-provider="features" finished-at="2019-05-05T19:46:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Validate new changes for AIB Personal FX form]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:tests.cucumber.tests.RunCucumberFeatures@6ee52dcd]" name="teardown" is-config="true" duration-ms="104" started-at="2019-05-05T19:46:58Z" finished-at="2019-05-05T19:46:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:tests.cucumber.tests.RunCucumberFeatures@6ee52dcd]" name="tearDownClass" is-config="true" duration-ms="38" started-at="2019-05-05T19:46:58Z" finished-at="2019-05-05T19:46:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- tests.cucumber.tests.RunCucumberFeatures -->
+    </test> <!--  Web Browser Test on Chrome -->
+  </suite> <!-- Chrome Web Test Suite -->
 </testng-results>

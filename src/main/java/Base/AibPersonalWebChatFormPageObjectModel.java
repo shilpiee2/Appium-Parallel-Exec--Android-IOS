@@ -6,6 +6,7 @@ import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.pagefactory.AppiumFieldDecorator;
 
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
@@ -24,7 +25,7 @@ public class AibPersonalWebChatFormPageObjectModel extends BasePage {
   /**
    * Page factory initialization.
    */
-  public AibPersonalWebChatFormPageObjectModel(AppiumDriver driver) {
+  public AibPersonalWebChatFormPageObjectModel(RemoteWebDriver driver) {
 	  super(driver);
     PageFactory.initElements(new AppiumFieldDecorator(driver), this);
   }
