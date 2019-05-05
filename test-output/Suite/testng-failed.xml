@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name=" Web Browser Test on Chrome(failed)">
+    <parameter name="platform" value="web"/>
+    <classes>
+      <class name="tests.cucumber.tests.RunCucumberFeatures">
+        <methods>
+          <include name="tearDownClass"/>
+          <include name="feature" invocation-numbers="1"/>
+          <include name="teardown"/>
+          <include name="setup"/>
+          <include name="setUpClass"/>
+        </methods>
+      </class> <!-- tests.cucumber.tests.RunCucumberFeatures -->
+    </classes>
+  </test> <!--  Web Browser Test on Chrome(failed) -->
+</suite> <!-- Failed suite [Suite] -->

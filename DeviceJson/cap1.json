@@ -1,0 +1,27 @@
+{
+"capabilities":
+[
+{
+"udid": "emulator-5554",
+"platformVersion": "9",
+"maxInstances": 1,
+"platform": "ANDROID",
+"deviceName": "Nexus"
+}
+],
+"configuration":
+{
+"cleanUpCycle":2000,
+"timeout":300000,
+"proxy": "org.openqa.grid.selenium.proxy.DefaultRemoteProxy",
+"url":"http://127.0.0.1:4723/wd/hub",
+"host":"127.0.0.1",
+"maxSession": 1,
+"register": true,
+"registerCycle": 5000,
+"hubPort": 4444,
+"hubHost": "192.168.0.94",
+"port":"4723",
+"session-override": true
+}
+}

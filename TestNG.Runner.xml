@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Chrome Web Test Suite" parallel="tests" >
+	<test name=" Web Browser Test on Chrome" thread-count="2" parallel="methods" >
+	<parameter name="platform" value="web" ></parameter>
+		<classes>
+			<class name="tests.cucumber.tests.RunCucumberFeatures" />
+		</classes>
+	</test>
+</suite>
