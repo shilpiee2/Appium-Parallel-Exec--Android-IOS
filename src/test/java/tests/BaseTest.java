@@ -64,6 +64,7 @@ public class BaseTest {
     					chromedriverpath);
             }
             ThreadLocalDriver.setTLDriver(new RemoteWebDriver(new URL("http://127.0.0.1:"+port+"/wd/hub"),caps));
+            wait = new WebDriverWait(ThreadLocalDriver.getTLDriver(), 20);
         	break;    
         	
         default:

@@ -2,7 +2,7 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite thread-count="4" name="Suite" parallel="tests" verbose="2">
 	<suite-files>
-		<suite-file path="./TestNG.Runner.xml" />
 		<suite-file path="./TestNG-ParallelWebBrowser.xml" />
+		<suite-file path="./TestNG.Runner.xml" />
 	</suite-files>
 </suite> 

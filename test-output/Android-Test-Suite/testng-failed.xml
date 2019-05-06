@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite thread-count="3" guice-stage="DEVELOPMENT" name="Failed suite [Android-Test-Suite]" parallel="tests">
-  <test thread-count="3" name="Test- Pixel-Android 8(failed)" parallel="methods">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Android-Test-Suite]" parallel="tests">
+  <test thread-count="5" name="Test- Pixel-Android 8(failed)" parallel="methods">
     <parameter name="chromedriverpath" value="C:/Users/s.a.bose/workspace/appium/abc/ChromeDriver2.28/chromedriver.exe"/>
     <parameter name="port" value="4724"/>
     <parameter name="platformVersion" value="8.0.0"/>
@@ -13,7 +13,7 @@
       <class name="tests.cucumber.tests.RunCucumberFeatures">
         <methods>
           <include name="tearDownClass"/>
-          <include name="feature"/>
+          <include name="feature" invocation-numbers="1"/>
           <include name="teardown"/>
           <include name="setup"/>
           <include name="setUpClass"/>
@@ -21,24 +21,4 @@
       </class> <!-- tests.cucumber.tests.RunCucumberFeatures -->
     </classes>
   </test> <!-- Test- Pixel-Android 8(failed) -->
-  <test thread-count="3" name="Test- Nexus-Android 9(failed)" parallel="methods">
-    <parameter name="chromedriverpath" value="C:/Users/s.a.bose/workspace/appium/abc/ChromeDriver2.42/chromedriver.exe"/>
-    <parameter name="port" value="4723"/>
-    <parameter name="platformVersion" value="9"/>
-    <parameter name="chromeport" value="9515"/>
-    <parameter name="udid" value="emulator-5554"/>
-    <parameter name="deviceName" value="Nexus"/>
-    <parameter name="platform" value="Android"/>
-    <classes>
-      <class name="tests.cucumber.tests.RunCucumberFeatures">
-        <methods>
-          <include name="tearDownClass"/>
-          <include name="feature"/>
-          <include name="teardown"/>
-          <include name="setup"/>
-          <include name="setUpClass"/>
-        </methods>
-      </class> <!-- tests.cucumber.tests.RunCucumberFeatures -->
-    </classes>
-  </test> <!-- Test- Nexus-Android 9(failed) -->
 </suite> <!-- Failed suite [Android-Test-Suite] -->

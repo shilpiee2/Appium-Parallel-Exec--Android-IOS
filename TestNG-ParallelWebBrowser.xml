@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 
-<suite name="Android-Test-Suite" parallel="tests" >
+<suite name="Parallel Execution-Test-Suite" parallel="tests" verbose="5" thread-count="10" >
 
-    <test name="Test- Nexus-Android 9" parallel="methods" thread-count="3">
+    <test name="Test 1 - Android device - Nexus-Android 9" parallel="methods" thread-count="5">
         <parameter name="deviceName" value="Nexus" />
         <parameter name="udid" value="emulator-5554" />
         <parameter name="platform" value="Android" />
@@ -16,7 +16,7 @@
         </classes>
     </test>
     
-    <test name="Test- Pixel-Android 8" parallel="methods" thread-count="3">
+    <test name="Test 2 - Android device - Pixel-Android 8" parallel="methods" thread-count="5">
         <parameter name="deviceName" value="Pixel" />
         <parameter name="udid" value="emulator-5556" />
         <parameter name="platform" value="Android" />
@@ -28,5 +28,11 @@
             <class name="tests.cucumber.tests.RunCucumberFeatures" />
         </classes>
     </test>
-
+    
+    <test name=" Test 3 - Chrome Web Browser " thread-count="5" parallel="methods" >
+	<parameter name="platform" value="web" ></parameter>
+		<classes>
+			<class name="tests.cucumber.tests.RunCucumberFeatures" />
+		</classes>
+	</test>
 </suite>
