@@ -1,6 +1,8 @@
 package tests;
 
 import io.appium.java_client.remote.AndroidMobileCapabilityType;
+import io.appium.java_client.remote.MobileCapabilityType;
+import io.appium.java_client.remote.MobilePlatform;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
@@ -11,6 +13,7 @@ import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 import Base.AiBPersonalFxFormPageObjectModel;
 import Base.AibPersonalWebChatFormPageObjectModel;
+
 import java.io.IOException;
 import java.net.URL;
 
@@ -63,9 +66,23 @@ public class BaseTest {
     					AndroidMobileCapabilityType.CHROMEDRIVER_EXECUTABLE,
     					chromedriverpath);
             }
+            System.out.println("Android device is opening..... ");
             ThreadLocalDriver.setTLDriver(new RemoteWebDriver(new URL("http://127.0.0.1:"+port+"/wd/hub"),caps));
             wait = new WebDriverWait(ThreadLocalDriver.getTLDriver(), 20);
-        	break;    
+        	break;  
+        	
+        case "ios":
+        	
+        	DesiredCapabilities cap = new DesiredCapabilities();
+        	cap.setCapability(MobileCapabilityType.DEVICE_NAME, "iPhone Simulator");
+        	cap.setCapability(MobileCapabilityType.PLATFORM_NAME, MobilePlatform.IOS);
+        	cap.setCapability(MobileCapabilityType.UDID,udid);
+        	cap.setCapability(MobileCapabilityType.AUTO_WEBVIEW,true);
+        	System.out.println("IOS device is opening..... ");
+        	
+        	ThreadLocalDriver.setTLDriver(new RemoteWebDriver(new URL("http://127.0.0.1:"+port+"/wd/hub"),cap));
+        	wait = new WebDriverWait(ThreadLocalDriver.getTLDriver(), 20);
+        	break; 
         	
         default:
 			System.out.println("Platform not supported! Check if you set ios or android on the parameter");

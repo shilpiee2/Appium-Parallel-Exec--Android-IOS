@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Chrome Web Test Suite" parallel="tests" >
-	<test name=" Web Browser Test on Chrome" thread-count="2" parallel="methods" >
-	<parameter name="platform" value="web" ></parameter>
-		<classes>
-			<class name="tests.cucumber.tests.RunCucumberFeatures" />
-		</classes>
-	</test>
+<suite name="IOS - Parallel Test Suite" parallel="tests" >
+	
+	<test name="iOS-Iphone-Emulator" thread-count="2" parallel="methods">
+        <parameter name="platform" value="ios"/>
+        <parameter name="udid" value="3C9FB71E-9C0E-49A7-AD65-3CCCD3A50301"/>
+        <parameter name="platformVersion" value="11.2"/>
+        <parameter name="port" value="4725" /> 
+        <classes>
+            <class name="tests.cucumber.tests.RunCucumberFeatures"/>
+        </classes>
+    </test>   
 </suite>
